@@ -1,0 +1,123 @@
+/*
+// <weight>: Use a value from 200 to 800
+// <uniquifier>: Use a unique and descriptive class name
+.newsreader-<uniquifier> {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.chocolate-classical-sans-regular {
+  font-family: "Chocolate Classical Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Chocolate Classical Sans", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-image: url("/images/bg.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Newsreader", serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  width: 100vw;
+  min-height: 24px;
+  color: #fff;
+  padding: 6px 0;
+  font-size: 0.75rem;
+}
+footer .container {
+  max-width: 1280px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+a {
+  color: #007bff;
+}
+
+article {
+  max-width: 1280px;
+  padding: 12px 2% 4rem;
+  margin-top: 6rem;
+}
+article p {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+section + section {
+  margin-top: 5rem;
+}
+section iframe + iframe {
+  margin-top: 2rem;
+}
+
+p + p {
+  margin-top: 1rem;
+}/*# sourceMappingURL=styles.css.map */
